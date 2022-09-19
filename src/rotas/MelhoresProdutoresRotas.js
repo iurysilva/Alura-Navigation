@@ -3,6 +3,6 @@ import MelhoresProdutores from "../telas/MelhoresProdutores";
 import ProdutorRotas from "./ProdutorRotas";
 
 export default function MelhoresProdutoresRotas(){
-    return <ProdutorRotas componente={MelhoresProdutores}/>
+    return <ProdutorRotas ComponentePrincipal={MelhoresProdutores}/>
 
 }
